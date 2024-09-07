@@ -1,0 +1,36 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  // background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+// 效果很奇怪，還需要研究怎麼調整
+// .swiper-button-prev,
+// .swiper-button-next,
+// .swiper-prev,
+// .swiper-next {
+//   background: #ffffff;
+//   border-radius: 12px;
+//   padding: 16px 16px 12px;
+//   cursor: pointer;
+//   position: absolute;
+//   top: calc(50% - 16px);
+//   display: inline-block;
+//   z-index: 10;
+//   box-shadow: 0 10px 15px #0000001a;
+//   transition: all 0.15s ease-in-out;
+// }

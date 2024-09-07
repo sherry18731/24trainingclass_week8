@@ -1,4 +1,6 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+@include mobile {
+  .rounded-top-m {
+    border-top-left-radius: 48px !important;
+    border-top-right-radius: 48px !important;
+  }
 }

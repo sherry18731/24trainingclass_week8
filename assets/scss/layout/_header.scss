@@ -1,4 +1,19 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.logo {
+  width: 200px;
+  height: 32px;
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  @include mobile {
+    margin-right: auto;
+  }
+}
+.dropdown-toggle::after {
+  content: "\e313";
+  font-family: "Material Symbols Outlined";
+  border: none;
+  vertical-align: bottom;
 }

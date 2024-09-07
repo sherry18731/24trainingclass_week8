@@ -1,3 +1,47 @@
-.index-title {
-  font-size: 100px;
+.btn-decorate {
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+
+.title-decorate {
+  &::after {
+    content: "";
+    position: absolute;
+    width: 560px;
+    height: 560px;
+    top: 0;
+    left: -110px;
+    background-image: url("/assets/images/deco/flower-2.png");
+    background-size: 560px;
+    z-index: -1;
+    @include mobile {
+      width: 200px;
+      height: 200px;
+      background-size: 200px;
+      left: -100px;
+    }
+  }
+}
+
+.title-sm-decorate {
+  &::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -25px;
+    left: -25px;
+    background-image: url("/assets/images/deco/flower-1.png");
+    z-index: -1;
+  }
+}
+
+// 參考同學的寫法
+@include mobile-lg {
+  .choose-course {
+    white-space: nowrap;
+    // margin: -16px;
+    overflow: visible !important;
+    overflow-x: scroll !important;
+  }
 }

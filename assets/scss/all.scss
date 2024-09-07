@@ -4,9 +4,12 @@
 @import "./utils/variables";
 @import "../../node_modules/bootstrap";
 
+@import "./base/base";
+@import "./base/fontStyle";
+@import "./base/mixin";
+@import "./utils/swiper";
 @import "./utils/helpers";
 @import "./utils/utilities";
-@import "./base/base";
 
 @import "./layout/header.scss";
 @import "./layout/footer.scss";
